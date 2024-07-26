@@ -51,7 +51,7 @@ export default defineConfig({
       ]
     }),
     Components({
-      directoryAsNamespace: true,
+      directoryAsNamespace: false,
       collapseSamePrefixes: true,
       resolvers: []
     }),
